@@ -27,7 +27,7 @@ def plotfield(boxl,n):
     xs=np.array(xs); ys=np.array(ys)
     Exs=np.array(Exs); Eys=np.array(Eys)
     plt.streamplot(xs, ys, Exs, Eys, density=1.5, color='m')
-    plt.xlabel('$x$')
+    plt.xlabel('Change')
     plt.ylabel('$y$')
     plt.show()
 
